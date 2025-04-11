@@ -1,0 +1,449 @@
+.breadcrumb_wrapper {
+    background: linear-gradient(rgba(0, 0, 0, .47), rgba(0, 0, 0, .47)), url('../images/banner-image1.jpg');
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 300px 0 100px 0;
+    text-align: center;
+}
+
+.breadcrumb_wrapper__content h2 {
+    font-size: 64px;
+    text-align: center;
+    color: var(--white-color);
+    font-weight: 700;
+    text-shadow: 0 0 40px rgba(0, 0, 0, .47);
+}
+
+.breadcrumb_wrapper__content h2 span {
+    font-size: 25px;
+}
+
+.breadcrumb_wrapper__content p {
+    color: var(--white-color);
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.breadcrumb_wrapper__content button:hover {
+    background-color: var(--white-color);
+    color: var(--orange-color);
+}
+
+.team_box {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.team_box__content h3 {
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.team_box__content span {
+    display: inline-block;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.team_box__content p {
+    line-height: 26px;
+    text-align: justify;
+}
+
+
+.legal_service__left h2 {
+    margin-bottom: 12px !important;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+/* mission-vision */
+.mission-vision-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.mission-vision-content {
+    padding: 12px 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid #ccc;
+    color: var(--white-color);
+    background-color: var(--dark-blue);
+}
+
+.mission-vision-content h2 {
+    font-size: 42px;
+    color: var(--main-color);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1rem !important;
+}
+
+.mission-vision-content ul li {
+    margin-bottom: 12px;
+}
+
+.mission-vision-content ul li b {
+    color: var(--main-color);
+}
+
+.mission-vision-content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+}
+
+
+.attorney_wrapper {
+    padding: 0 0 80px 0;
+}
+
+/* legal_service__left */
+.legal_service__left p {
+    margin-bottom: 1rem !important;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.legal_service__left h3 {
+    margin-bottom: 1rem !important;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.legal_service__left ul {
+    padding-left: 1.2rem !important;
+}
+
+.legal_service__left p b {
+    color: var(--dark-blue);
+}
+
+.legal_service__left ul li {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    line-height: 30px;
+    list-style: disc !important;
+}
+
+.accident_box {
+    background-color: var(--main-color);
+    padding: 1rem;
+}
+
+.accident_box h3 {
+    background-color: var(--white-color);
+    text-align: center;
+    padding: 5px;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.accident_box p {
+    margin-top: 10px;
+    color: var(--white-color);
+}
+
+/* faq_box */
+.faq_box {
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: var(--dark-blue);
+}
+
+.faq_box__content {
+    background-color: aliceblue;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.que h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark-blue);
+}
+
+.ans p {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.legal_service__right {
+    position: sticky;
+    top: 7rem;
+}
+
+/* principle_wrapper */
+.principle_wrapper {
+    background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('../images/banner3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-position: center;
+    backdrop-filter: blur(4px);
+    background-attachment: fixed;
+}
+
+.principle_box {
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.principle_wrapper__border {
+    border: 1px solid var(--main-color);
+    padding: 5rem;
+    margin: 0 2rem !important;
+}
+
+.principle_box h3 {
+    text-transform: uppercase;
+    margin: 1rem 0 !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.principle_box p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* why_box */
+.why_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why_box h3 {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.why_box p {
+    text-transform: capitalize;
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.why_parra p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 2rem;
+}
+
+/* service_box__content */
+.service_box__content ul {
+    padding-left: 2rem !important;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.service_box__content ul li {
+    margin-bottom: 12px;
+    list-style: disc !important;
+}
+
+
+
+.career_details__content h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.career_details__content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.career_details__content ul {
+    margin-top: 1rem;
+}
+
+
+@media(max-width:1440px) {
+    .opening_box h3 {
+        font-size: 21px;
+    }
+}
+
+@media(max-width:1200px) {
+    .join_wrapper__left h2 {
+        font-size: 34px;
+    }
+}
+
+
+@media(max-width:992px) {
+    .legal_service__right {
+        margin-top: 1rem;
+    }
+
+    .principle_box {
+        margin-bottom: 30px;
+    }
+
+    .principle_wrapper__border {
+        padding: 50px 1rem 20px 1rem;
+    }
+
+    .join_grid__box {
+        padding: 1rem;
+    }
+
+    .join_wrapper__right {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:768px) {
+    .opening_box h3{
+        font-size: 26px;
+    }
+    .accident_box p,
+    .ans p,
+    .career_details__content ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .breadcrumb_wrapper__content p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .career_details__content h3 {
+        font-size: 22px;
+    }
+
+    .legal_service__left h2 {
+        margin-bottom: 12px !important;
+        font-weight: 700;
+        color: var(--dark-blue);
+    }
+
+    .legal_service__left h3 {
+        margin-bottom: 12px !important;
+        font-size: 25px;
+    }
+
+    .legal_service__left ul li,
+    .legal_service__left p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 12px !important;
+    }
+
+    .join_wrapper__left h2 {
+        font-size: 25px;
+        margin-top: 2px;
+    }
+
+    .join_wrapper__left p {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .join_icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .join_icon img {
+        width: 25px;
+    }
+
+    .join_grid__box h3 {
+        font-size: 20px;
+    }
+
+    .breadcrumb_wrapper {
+        padding: 150px 0 50px 0;
+    }
+
+    .breadcrumb_wrapper__content h2 {
+        font-size: 36px;
+    }
+
+    .principle_box h3 {
+        margin: 1rem 0 10px 0;
+    }
+
+    .principle_box p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .why_box {
+        margin-bottom: 24px;
+    }
+
+    .why_box h3 {
+        font-size: 42px;
+    }
+
+    .why_box p {
+        font-size: 16px;
+    }
+
+    .team_box {
+        margin-bottom: 12px;
+        padding: 2rem 1rem;
+    }
+
+    .why_parra p,
+    .team_box__content p {
+        text-align: center;
+        line-height: 30px;
+        padding-right: 0;
+    }
+
+    .team_box__content p {
+        text-align: justify;
+    }
+
+    .principle_wrapper__border {
+        margin: 0 !important;
+    }
+
+    .principle_box h3 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:576px) {
+
+    .why_box p,
+    .why_parra p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .join_grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+}

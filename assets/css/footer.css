@@ -1,0 +1,142 @@
+.footer_wrapper {
+    padding: 50px 0;
+    background-color: var(--dark-blue);
+}
+
+.footer_box h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 34px;
+    color: var(--main-color);
+}
+
+.footer_logo img {
+    width: 200px;
+}
+
+.footer_box {
+    padding-left: 3rem;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.social_icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social_icon a {
+    font-size: 21px;
+    height: 36px;
+    width: 36px;
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: .3s ease all;
+    color: var(--white-color);
+}
+
+.social_icon a:hover {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    transition: .3s ease all;
+}
+
+.footer_links a {
+    text-transform: capitalize;
+    color: var(--white-color);
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+}
+
+.footer_links a i {
+    margin-top: 4px;
+    color: var(--main-color);
+}
+
+.footer_logo p {
+    font-size: 14px;
+    margin-top: 1rem;
+    color: var(--white-color);
+}
+
+.footer_links a:hover {
+    color: var(--main-color);
+}
+
+.footer_icon {
+    margin-top: 1rem;
+}
+
+
+.copyright p {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+    color: var(--white-color);
+    background-color: var(--main-color);
+}
+
+@media(max-width:1200px) {
+    .footer_logo img {
+        width: 250px;
+    }
+
+    .footer_box {
+        margin-top: 3rem;
+        padding-left: 0;
+    }
+
+}
+
+@media(max-width:576px) {
+    .footer_links a {
+        font-size: 14px;
+    }
+
+    .footer_links {
+        margin-top: 1.5rem;
+        gap: 14px;
+    }
+
+    .copyright p {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+    .footer_logo p {
+        font-size: 14px;
+    }
+
+    .footer_logo img {
+        width: 145px;
+        height: auto;
+    }
+
+    .social_icon a {
+        height: 26px;
+        width: 26px;
+        font-size: 16px;
+    }
+
+    .attend_wrapper__content ul li,
+    .keytopics_wrapper__content ul li {
+        margin-bottom: 5px;
+    }
+
+    .footer_box {
+        margin-top: 2rem;
+    }
+    .footer_box h3 {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,92 @@
+/* contact_left */
+.contact_left h3 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.contact_left p {
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.company_info {
+    margin-top: 2rem;
+}
+
+.company_info a {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+    color: #434343;
+    margin-bottom: 1rem;
+}
+.company_info a:hover{
+    color: var(--main-color);
+}
+.company_info a i {
+    margin-top: 3px;
+    color: var(--main-color);
+    font-size: 25px;
+}
+
+.map_wrapper iframe {
+    width: 100%;
+}
+
+
+.banner_form {
+    background-color: var(--white-color);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-top: 6px solid var(--main-color);
+}
+
+.banner_form h3 {
+    text-transform: capitalize;
+    font-size: 32px;
+    color: var(--main-color);
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+
+.banner_input input,
+.banner_input textarea {
+    width: 100%;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    outline: none;
+}
+
+
+@media(max-width:992px) {
+    .banner_form {
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:768px) {
+    .banner_form {
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+
+    .company_info a {
+        font-size: 16px;
+    }
+
+    .banner_form h3,
+    .contact_left h3 {
+        font-size: 25px;
+    }
+    .contact_left p{
+        margin: 10px 0 !important;
+    }
+    .company_info a i{
+        font-size: 22px;
+    }
+}
